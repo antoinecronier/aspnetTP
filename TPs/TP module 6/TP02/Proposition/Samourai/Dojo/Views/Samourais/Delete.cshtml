@@ -1,0 +1,17 @@
+﻿@model BO.Samourai
+
+<h2>Suppression</h2>
+<h3>Etes vous sur de vouloir supprimer cet élément ?</h3>
+<div>
+    @Html.Partial("_Samourai", Model)
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Supprimer" class="btn btn-default" /> |
+            @Html.ActionLink("Retour à la liste", "Index",null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

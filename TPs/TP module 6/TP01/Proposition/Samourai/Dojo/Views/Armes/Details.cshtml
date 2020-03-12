@@ -1,0 +1,10 @@
+﻿@model BO.Arme
+<h2>Détails</h2>
+
+<div>
+    @Html.Partial("_Arme", Model)
+</div>
+<p>
+    @Html.ActionLink("Modification", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Retour à la liste", "Index")
+</p>
