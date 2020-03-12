@@ -221,9 +221,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BO\BO.csproj">
+    <ProjectReference Include="..\..\..\..\TP02\BO\TPModule5-2-BO.csproj">
       <Project>{6066EAAA-6025-49BC-A1F3-FC6447C42CD9}</Project>
-      <Name>BO</Name>
+      <Name>TPModule5-2-BO</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
